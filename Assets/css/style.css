@@ -1,1 +1,72 @@
+* {
+    font-size: 16px;
+    font-family: "Fira Code", "Garamond", sans-serif;
+}
 
+h1 {
+    font-size: 24px;
+}
+
+body {
+    background: #eee;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-flow: wrap;
+}
+
+nav {
+    height: 55px;
+    width: 100vw;
+    background-color: #808080;
+    margin-bottom: 20px;
+    box-shadow: 0 2px #424242;
+}
+
+#brand {
+    height: 40px;
+    text-align: center;
+    padding-top: 15px;
+    width: 150px;
+    background-color: #bbbbbb;
+    margin-left: 175px;
+    position: absolute;
+}
+
+#navbar {
+    right: 175px;
+    display: flex;
+    position: absolute;
+    overflow: auto;
+}
+
+a {
+    background: white;
+    color: red;
+    padding: 15px;
+    height: 25px;
+}
+
+a:hover {
+    background: salmon;
+    color: orangered;
+}
+
+#about {
+    margin: 0 175px;
+    height: 400px;
+    min-width: 65%;
+    background-color: #9199ac;
+    border: 1px solid #151617;
+    padding: 15px;
+    overflow: auto;
+}
+
+.about-img {
+    float: left;
+    margin-right: 10px;
+    width: 250px;
+    height: 200px;
+    border-radius: 20px;
+}
