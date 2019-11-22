@@ -38,12 +38,10 @@ button, #brand h5, #brand {
     width: 100px;
 }
 
-button {
-    padding: 8px;
-}
 
-input, label {
+input, label, button, textarea {
     padding: 8px;
+    border-radius: 4px;
 }
 
 hr {
@@ -78,6 +76,16 @@ footer {
     padding: 15px 0;
 }
 
+main {
+    margin: 70px auto;
+    min-height: 300px;
+    width: 960px;
+    background-color: #ffffff;
+    border: 1px solid #cccccc;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
 #brand {
     text-align: center;
     padding: 18px;
@@ -92,16 +100,6 @@ footer {
     display: inline-flex;
     justify-items: flex-end;
     align-items: center;
-}
-
-main {
-    margin: 70px auto;
-    min-height: 300px;
-    width: 960px;
-    background-color: #ffffff;
-    border: 1px solid #cccccc;
-    padding: 15px;
-    box-sizing: border-box;
 }
 
 .contact {
