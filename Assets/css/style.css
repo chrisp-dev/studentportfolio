@@ -35,6 +35,15 @@ h1, h3, h5 {
 button, #brand h5, #brand {
     color: #eeeeee;
     background-color: #4aaaa5;
+    width: 100px;
+}
+
+button {
+    padding: 8px;
+}
+
+input, label {
+    padding: 8px;
 }
 
 hr {
@@ -85,8 +94,7 @@ footer {
     align-items: center;
 }
 
-
-#about {
+main {
     margin: 70px auto;
     min-height: 300px;
     width: 960px;
@@ -95,6 +103,16 @@ footer {
     padding: 15px;
     box-sizing: border-box;
 }
+
+.contact {
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.portfolio {
+
+}
+
 
 .about-img {
     float: left;

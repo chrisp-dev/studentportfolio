@@ -34,16 +34,19 @@
         <main id="about">
 
             <h1>Contact Form</h1>
-            <form>
-                First Name:<br>
-                <input type="text" placeholder="First Name..." name="firstname">
+            <hr>
+            <form class="contact">
+                <label>Name</label>
+                <input type="text" placeholder="First Name..." name="name">
+                <br>
 
-                Last Name:<br>
-                <input type="text" placeholder="Last Name..." name="lastname">
+                <label>Email</label>
+                <input type="text" placeholder="Last Name..." name="email">
+                <br>
 
-                Question:<br>
-                <textarea name="question" id="cq" cols="20" rows="5"></textarea>
-
+                <label>Message</label>
+                <textarea name="message" id="cq" cols="20" rows="5"></textarea>
+                <br>
                 <button type="submit">Ask Away!</button>
             </form>
         </main>
