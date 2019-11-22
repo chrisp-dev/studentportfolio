@@ -110,9 +110,31 @@ main {
 }
 
 .portfolio {
-
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-content: center;
 }
 
+.portfolio label {
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    padding: 8px;
+    background-color: #4aaaa5;
+    justify-content: flex-start;
+    /* margin-bottom: -40px; */
+}
+
+.card {
+    padding: 10px;
+    margin: 10px auto;
+}
+
+.gallery {
+    display: flex;
+    flex-flow: row wrap;
+}
 
 .about-img {
     float: left;
