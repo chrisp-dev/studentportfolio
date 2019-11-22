@@ -122,8 +122,8 @@ main {
     font-weight: bold;
     padding: 8px;
     background-color: #4aaaa5;
-    justify-content: flex-start;
-    /* margin-bottom: -40px; */
+    position: relative;
+    bottom: 55px;
 }
 
 .card {
