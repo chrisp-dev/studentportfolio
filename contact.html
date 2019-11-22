@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,37 +8,49 @@
     <title>Student Portfolio</title>
     <link rel="stylesheet" href="Assets/css/style.css">
 </head>
+
 <body>
-    <!-- I want the nav to be absolute top of page full width.
+    <div class="container">
+        <!-- I want the nav to be absolute top of page full width.
         I want the brand to be on the left
         Navbar on the right
     -->
-    <nav>
-        <span id="brand">
-            Chris P.
-        </span>
-        <div id="navbar">
-            <a href="about.html">About</a>
-            <a href="portfolio.html">Portfolio</a>
-            <a href="contact.html">Contact</a>
-        </div>
-    </nav>
+        <nav>
+            <div class="nav-container">
+                <span id="brand">
+                    Chris P.
+                </span>
+                <div id="navbar">
+                    <a href="index.html">About</a>
+                    <a href="portfolio.html">Portfolio</a>
+                    <a href="contact.html">Contact</a>
+                </div>
+            </div>
+        </nav>
 
-    <!-- This is the main content container
+        <!-- This is the main content container
         It should be the same width as the navbar content.
     -->
-    <h1>Contact Form</h1>
-    <form>
-        First Name:<br>
-        <input type="text" placeholder="First Name..." name="firstname">
-    
-        Last Name:<br>
-        <input type="text" placeholder="Last Name..." name="lastname">
+        <main id="about">
 
-        Question:<br>
-        <textarea name="question" id="cq" cols="20" rows="5"></textarea>
+            <h1>Contact Form</h1>
+            <form>
+                First Name:<br>
+                <input type="text" placeholder="First Name..." name="firstname">
 
-        <button type="submit">Ask Away!</button>
-    </form>
+                Last Name:<br>
+                <input type="text" placeholder="Last Name..." name="lastname">
+
+                Question:<br>
+                <textarea name="question" id="cq" cols="20" rows="5"></textarea>
+
+                <button type="submit">Ask Away!</button>
+            </form>
+        </main>
+    </div>
+    <footer class="footer">
+        Chris Paradeise &copy;2019
+    </footer>
 </body>
+
 </html>
