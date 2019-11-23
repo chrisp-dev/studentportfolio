@@ -12,7 +12,8 @@ html, body {
 body {
     margin: 0;
     background: url('../Images/circle-blues.png');
-    /* background-size: cover; */
+    background-color: rgba(255, 255, 255, 0.4);
+    background-blend-mode: lighten;
 }
 
 h1 {
