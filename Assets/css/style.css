@@ -87,6 +87,7 @@ main {
 }
 
 #brand {
+    box-sizing: content-box;
     text-align: center;
     padding: 18px;
     font-size: 22px;
