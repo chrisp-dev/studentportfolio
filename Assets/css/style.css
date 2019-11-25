@@ -30,3 +30,12 @@ body {
 #sticky-footer {
     flex-shrink: 0;
 }
+
+.card-image-overlay {
+    position: relative;
+    bottom: 50px;
+    background: rgba(25, 185, 206, 0.7);
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
