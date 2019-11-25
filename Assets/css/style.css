@@ -1,9 +1,3 @@
-* {
-    font-size: 16px;
-    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-    color: #777777;
-}
-
 html, body {
     height: 100%;
     width: 100%;
@@ -16,150 +10,23 @@ body {
     background-blend-mode: lighten;
 }
 
-h1 {
-    font-size: 24px;
-}
-
-h3 {
-    font-size: 20px;
-}
-
-h5 {
-    font-size: 18px;
-}
-
-h1, h3, h5 {
-    color: #4aaaa5;
-    font-family: 'Georgia', Times, 'Times New Roman', serif;
-}
-
-button, #brand h5, #brand {
-    color: #eeeeee;
-    background-color: #4aaaa5;
-    width: 100px;
-}
-
-
-input, label, button, textarea {
-    padding: 8px;
-    border-radius: 4px;
-}
-
-hr {
-    margin-bottom: 35px;
-}
-
-nav {
-    width: 100vw;
-    background-color: #ffffff;
-    border-bottom: 2px solid #777777;
-    display: flex;
-    justify-content: space-evenly;
-}
-
-a {
-    background: white;
-    color: #777777;
-    font-weight: bold;
-    text-decoration: none;
-    font-size: 18px;
-    padding: 18px;
-}
-
-a:hover {
-    background: #555555;
-    color: #eeeeee;
-}
-
-footer {
-    width: 100vw;
-    text-align: center;
-    padding: 15px 0;
-}
-
-main {
-    margin: 70px auto;
-    min-height: 300px;
-    width: 960px;
-    background-color: #ffffff;
-    border: 1px solid #cccccc;
-    padding: 15px;
-    box-sizing: border-box;
-}
-
-#brand {
-    box-sizing: content-box;
-    text-align: center;
-    padding: 18px;
-    font-size: 22px;
-    color: #eeeeee;
-    font-weight: bolder;
-    font-family: 'Georgia', Times, 'Times New Roman', serif;
-
-}
-
-#navbar {
-    display: inline-flex;
-    justify-items: flex-end;
-    align-items: center;
-}
-
-.contact {
-    display: flex;
-    flex-flow: column wrap;
-}
-
-.portfolio {
-    display: flex;
-    flex-flow: column wrap;
-    justify-content: center;
-    align-content: center;
-}
-
-.portfolio label {
-    color: white;
-    text-align: center;
-    font-weight: bold;
-    padding: 8px;
-    background-color: #4aaaa5;
-    position: relative;
-    bottom: 55px;
-}
-
-.card {
-    padding: 10px;
-    margin: 10px auto;
-}
-
-.gallery {
-    display: flex;
-    flex-flow: row wrap;
-}
-
-.about-img {
-    float: left;
-    margin-right: 10px;
-    width: 250px;
-    height: 200px;
-    border-radius: 20px;
-}
-
-.nav-container {
-    width: 960px;
-    display: flex;
-    justify-content: space-between;
-}
-
-.container {
-    display: flex;
-    flex-flow: column wrap;
-    flex: 1 0 auto;
-    width: 960px;
-}
-
 .footer {
+    background-color: #555566;
+    width: 100%;
+    height: 100%;
+    padding: 15px;
+    border-top: 1px solid #4fdffd;
+}
+
+.page-content {
+    flex: 1 0 auto;
+}
+
+.card-image {
+    float: left;
+    margin-right: 8px;
+}
+
+#sticky-footer {
     flex-shrink: 0;
-    border-top: 8px solid #4aaaa5;
-    background-color: #666666;
-    color: #ffffff;
 }
