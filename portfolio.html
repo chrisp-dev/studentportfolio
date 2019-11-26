@@ -11,41 +11,36 @@
     <link rel="stylesheet" href="Assets/css/style.css">
 </head>
 
-<body class="d-flex flex-column">
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">Chris Paradeise</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
-            <ul class="navbar-nav">
-                <li class="nav-item active">
-                    <a class="nav-link" href="index.html">About <span class="sr-only">(current)</span></a>
+<body class="d-flex flex-column">    
+    <div class="container-fluid text-center bg-dark">
+        <div class="row">
+            <div class="visible-lg col-lg-1 bg-light"></div>
+            <div class="navbar-brand text-white col-12 col-lg-2">Chris Paradeise</div>
+            <div class="visible-lg col bg-light"></div>
+            <ul class="list-group list-group-horizontal list-unstyled bg-light col-12 col-lg-3 d-flex flex-row justify-content-center justify-lg-content-end">
+                <li class="list-group-item-dark p-2 bd-highlight active">
+                    <a class="" href="index.html">About</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="portfolio.html">Portfolio</a>
+                <li class="list-group-item-dark p-2 bd-highlight">
+                    <a class="active" href="portfolio.html">Portfolio <span class="sr-only">(current)</span></a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="contact.html">Contact</a>
+                <li class="list-group-item-dark p-2 bd-highlight">
+                    <a class="" href="contact.html">Contact</a>
                 </li>
             </ul>
-            <!-- <form class="form-inline my-2 my-lg-0">
-                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-            </form> -->
+            <div class="visible-lg col-lg-1 bg-light"></div>
         </div>
-    </nav>
-    <div class="container page-content my-5">
-        <div class="row">
+    </div>
+    <div class="container-fluid page-content">
+        <div class="row py-4">
+            <div class="visible-lg col-lg-1"></div>
             <div class="col">
                 <div class="card">
                     <div class="card-body">
                         <h2 class="card-title">Portfolio</h2>
                         <hr>
                         <div class="row">
-                            <div class="card col-4">
+                            <div class="col-12 col-lg-4">
                                 <div class="card-body">
                                     <a href="fullsize.html">
                                         <img class="card-img" width="200" height="200" src="Assets/Images/CATLeaderboard_thumb.png" alt="cat1">
@@ -56,7 +51,7 @@
                                     </a>
                                 </div>
                             </div>
-                            <div class="card col-4">
+                            <div class="col-12 col-lg-4">
                                 <div class="card-body">
                                     <a href="#">
                                         <img class="card-img" width="200" height="200" src="Assets/Images/CATLeaderboard_thumb.png" alt="cat1">
@@ -66,7 +61,7 @@
                                     </a>
                                 </div>
                             </div>
-                            <div class="card col-4">
+                            <div class="col-12 col-lg-4">
                                 <div class="card-body">
                                     <a href="#">
                                         <img class="card-img" width="200" height="200" src="Assets/Images/CATLeaderboard_thumb.png" alt="cat1">
@@ -76,7 +71,7 @@
                                     </a>
                                 </div>
                             </div>
-                            <div class="card col-4">
+                            <div class="col-12 col-lg-4">
                                 <div class="card-body">
                                     <a href="#">
                                         <img class="card-img" width="200" height="200" src="Assets/Images/CATLeaderboard_thumb.png" alt="cat1">
@@ -86,7 +81,7 @@
                                     </a>
                                 </div>
                             </div>
-                            <div class="card col-4">
+                            <div class="col-12 col-lg-4">
                                 <div class="card-body">
                                     <a href="#">
                                         <img class="card-img" width="200" height="200" src="Assets/Images/CATLeaderboard_thumb.png" alt="cat1">
@@ -101,10 +96,7 @@
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="row">
-            <div class="col">
-            </div>
+            <div class="visible-lg col-lg-1"></div>
         </div>
     </div>
     <footer id="sticky-footer" class="py-4 bg-dark text-white-50">
@@ -125,63 +117,3 @@
 </body>
 
 </html>
-<!---<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Student Portfolio - Gallery</title>
-    <link rel="stylesheet" type="text/css" href="Assets/css/bootstrap.min.css">
-    <link rel="stylesheet" href="Assets/css/style.css">
-</head>
-
-<body>
-    <nav>
-        <div class="nav-container">
-            <span id="brand">
-                Chris P.
-            </span>
-            <div id="navbar">
-                <a href="index.html">About</a>
-                <a href="portfolio.html">Portfolio</a>
-                <a href="contact.html">Contact</a>
-            </div>
-        </div>
-    </nav>
-    <div class="container">
-        <main id="about">
-            <h1>Portfolio</h1>
-            <hr>
-            <div class="gallery">
-                <div class="card portfolio">
-                    <img width="200" height="200" src="Assets/Images/CATLeaderboard_thumb.png" alt="cat1" class="site-image">
-                    <label class="label">CAT Auction Services</label>
-                </div>
-                <div class="card portfolio">
-                    <img src="https://placekitten.com/200/200" alt="cat2" class="site-image">
-                    <label class="label">My Site 2</label>
-                </div>
-                <div class="card portfolio">
-                    <img src="https://placekitten.com/200/200" alt="cat3" class="site-image">
-                    <label class="label">My Site 3</label>
-                </div>
-                <div class="card portfolio">
-                    <img src="https://placekitten.com/200/200" alt="cat4" class="site-image">
-                    <label class="label">My Site 4</label>
-                </div>
-                <div class="card portfolio">
-                    <img src="https://placekitten.com/200/200" alt="cat5" class="site-image">
-                    <label class="label">My Site 5</label>
-                </div>
-            </div>
-        </main>
-    </div>
-    <footer class="footer">
-        Chris Paradeise &copy;2019
-    </footer>
-</body>
-
-</html>
---->
