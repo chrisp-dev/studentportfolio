@@ -1,0 +1,22 @@
+{
+  "name": "studentportfolio",
+  "version": "1.0.0",
+  "description": "\"UW Coding Bootcamp Portfolio\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chrisp-dev/studentportfolio.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chrisp-dev/studentportfolio/issues"
+  },
+  "homepage": "https://github.com/chrisp-dev/studentportfolio#readme",
+  "dependencies": {
+    "tailwindcss": "^1.1.4"
+  }
+}
