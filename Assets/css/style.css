@@ -28,11 +28,21 @@ body {
     width: 250px;
     margin: 10px;
 }
+.fs-body {
+    height: 100%;
+    width: 100%;
+    box-shadow: 0 10px 55px 10px rgb(32, 30, 30) inset;
+    margin: 10px;
+    padding: 5px;
+}
 .card-img {
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
     flex-shrink: 0;
+}
+.fs-img {
+    width: 100%;
 }
 
 .cat-auction-services {
