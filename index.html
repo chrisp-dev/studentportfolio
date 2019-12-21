@@ -6,18 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
 
     <title>Student Portfolio</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="node_modules\tailwindcss\dist\tailwind.min.css">
     <link rel="stylesheet" href="Assets/css/style.css">
 </head>
 
-<body class="d-flex flex-column">
-    <div class="container-fluid text-center">
-        <div class="row">
-            <div class="visible-lg col-lg-1 bg-light"></div>
-            <div class="navbar-brand text-white col-12 col-lg-2">Chris Paradeise</div>
-            <div class="visible-lg col bg-light"></div>
-            <ul class="list-group list-group-horizontal list-unstyled bg-light col-12 col-lg-3 d-flex flex-row justify-content-center justify-content-lg-end">
+<body class="flex flex-col text-white">
+    <div class="w-full text-center">
+        <div class="flex flex-col md:flex-row">
+            <div class="navbar-brand text-white w-full lg:w-1/6">Chris Paradeise</div>
+            <ul class=" list-unstyled bg-blue-400 w-full lg:w-1/3 flex flex-row justify-center justify-end">
                 <li class="list-group-item-dark p-2 bd-highlight active">
                     <a class="" href="index.html">About <span class="sr-only">(current)</span></a>
                 </li>
@@ -31,43 +28,29 @@
             <div class="visible-lg col-lg-1 bg-light"></div>
         </div>
     </div>
-    <div class="container-fluid page-content">
-        <div class="row py-4">
-            <div class="visible-lg col-lg-1"></div>
-            <div class="col col-lg-8">
-                <div class="card">
-                    <div class="card-body container-fluid">
-                        <h2 class="card-title">About Me</h2>
-                        <hr>
-                        <div class="row">
-                            <div class="col-12">
-                                <img src="https://placekitten.com/300/300" alt="kitty" class="card-image img-fluid">
-                                
-                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates
-                                    delectus aut iure ad a, repudiandae magni. Ut aperiam voluptatibus ex autem dolor reiciendis
-                                    obcaecati nisi, laudantium incidunt omnis similique dolore.</p>
-                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates
-                                    delectus aut iure ad a, repudiandae magni. Ut aperiam voluptatibus ex autem dolor reiciendis
-                                    obcaecati nisi, laudantium incidunt omnis similique dolore.</p>
-                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates
-                                    delectus aut iure ad a, repudiandae magni. Ut aperiam voluptatibus ex autem dolor reiciendis
-                                    obcaecati nisi, laudantium incidunt omnis similique dolore.</p>
-                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates
-                                    delectus aut iure ad a, repudiandae magni. Ut aperiam voluptatibus ex autem dolor reiciendis
-                                    obcaecati nisi, laudantium incidunt omnis similique dolore.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+    <div class="w-full">
+        <div class="w-full p-4 mx-auto">
+            <h2 class="card-title">Welcome! I'm Chris</h2>
+            <hr>
+            <div class="sm:inline-flex mx-auto p-4">
+                <img src="Assets\Images\prof_pic.jpg" alt="kitty" class="h-full w-full mb-2 sm:w-1/3 lg:w-1/4">
+                <p class="text-sm sm:m-4 p-2 border border-solid border-red-500">
+                    I love music, have been singing Disney songs with my older sisters since I was 4.
+                    I have a creative eye and I love to embrace my weird. I know we are
+                    all here to help each other, that's why I love what I do! I hvae experience working
+                    at companies where the lives of our customers were central to their own day to day
+                    work lives. Since 2014, I have worked at several small companies building on my
+                    skillset of Javascript, HTML, CSS development. AngularJS was my first Professional
+                    learning assignment. That sparked a 5 year run of working as an Engineer, learning
+                    and building new ways of Agile Web Development with new tools including
+                    ReactJS, MongoDB. NodeJS and the NPM (Javascript) community have been amazing to
+                    work with.
+                </p>
             </div>
-            
-            <div class="visible-lg col-lg-1"></div>
         </div>
     </div>
-    <footer id="sticky-footer" class="py-4 bg-dark text-white-50">
-        <div class="container text-center">
-            Copyright &copy;2019
-        </div>
+    <footer id="sticky-footer" class="py-4 bg-gray-700 text-center text-white">
+        Copyright &copy;2019
     </footer>
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
