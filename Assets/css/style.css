@@ -7,6 +7,7 @@ body {
     margin: 0;
     background: url('../Images/scenic-view-of-forest-during-night-time-1252869.jpg');
     background-size: cover;
+    background-repeat: no-repeat;
     /* background-color: rgba(24, 247, 255, 0.4); */
     /* background-blend-mode: lighten; */
     font-family: 'Fira Code', sans-serif;
