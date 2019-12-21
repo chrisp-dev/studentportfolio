@@ -36,7 +36,8 @@ body {
 }
 
 .navbar-brand {
-    background: #59aaa5;
+    background: #a0aec0;
+    background-blend-mode: lighten;
 }
 
 .card-image-overlay {
@@ -49,17 +50,14 @@ body {
     text-align: center;
 }
 
-/* .navbar-brand {
-    background-color: #4f9afd;
-    font-weight: bold;
-    margin: 0;
-}
-
-a:hover {
-    background: #343a40;
-    color: white!important;
-} */
-
 .navbar {
     padding: 0;
+}
+
+a.active {
+    background-color: #a0aec0;
+}
+
+.bg-c-thru {
+    background: #4fe0fd2a;
 }

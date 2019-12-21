@@ -2,10 +2,10 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
+    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
 
-    <title>Student Portfolio</title>
+    <title>C. Paradeise</title>
     <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
     <link rel="stylesheet" href="Assets/css/style.css">
 </head>
@@ -14,38 +14,22 @@
     <div class="container flex justify-between mx-auto text-white">
         <div class="navbar-brand flex justify-center p-2">Chris Paradeise</div>
         <ul class="flex justify-center">
-            <li class="p-2 hover:bg-gray-500">
-                <a class="" href="index.html">About <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="p-2 hover:bg-gray-500">
-                <a class="" href="portfolio.html">Portfolio</a>
-            </li>
-            <li class="p-2 hover:bg-gray-500">
-                <a class="" href="contact.html">Contact</a>
-            </li>
+            <a class="p-2 hover:bg-gray-500 active" href="index.html">About <span class="sr-only">(current)</span></a>
+            <a class="p-2 hover:bg-gray-500" href="portfolio.html">Portfolio</a>
+            <a class="p-2 hover:bg-gray-500" href="contact.html">Contact</a>
         </ul>
     </div>
     <div class="container flex justify-center mx-auto flex-grow">
-        <div class="row py-4">
-            <div class="visible-lg col-lg-1"></div>
-            <div class="col col-lg-8">
-                <div class="card">
-                    <div class="card-body container-fluid">
-                        <h2 class="text-xl font-semibold">About Me</h2>
-                        <hr>
-                        <div class="row">
-                            <div class="inline-flex flex-col text-white">
-                                <!-- <img src="Assets/Images/prof_pic.jpg" alt="kitty" class="object-contain w-1/2"> -->
-                                <div class="profile-img"></div>
-                                <p class="card-text">Cheers! I'm Chris, this is my website.</p>
-                                <p class="card-text">Feel free to take a look around!</p>
-                            </div>
-                        </div>
-                    </div>
+        <div class="w-full flex-row py-4">
+            <h2 class="text-white text-xl font-semibold">About Me</h2>
+            <hr>
+            <div class="inline-flex flex-row text-white">
+                <div class="profile-img"></div>
+                <div class="flex flex-col">
+                    <p class="card-text">Cheers! I'm Chris, this is my website.</p>
+                    <p class="card-text">Feel free to take a look around!</p>
                 </div>
             </div>
-
-            <div class="visible-lg col-lg-1"></div>
         </div>
     </div>
     <footer class="self-end footer text-center py-4 text-white">
