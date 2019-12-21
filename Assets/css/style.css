@@ -5,13 +5,24 @@ html, body {
 
 body {
     margin: 0;
-    background: url('../Images/circle-blues.png');
-    background-color: rgba(24, 247, 255, 0.4);
-    background-blend-mode: lighten;
+    background: url('../Images/scenic-view-of-forest-during-night-time-1252869.jpg');
+    background-size: cover;
+    background-repeat: none;
+    /* background-color: rgba(24, 247, 255, 0.4); */
+    /* background-blend-mode: lighten; */
     font-family: 'Fira Code', sans-serif;
     font-size: 1rem;
     display: flex;
     flex-flow: column;
+}
+
+.profile-img {
+    background: url(../Images/prof_pic.jpg);
+    background-size: contain;
+    width: 200px;
+    height: 200px;
+    background-repeat: no-repeat;
+    flex-shrink: 0;
 }
 
 .footer {
@@ -22,11 +33,6 @@ body {
 
 .page-content {
     flex: 1 0 auto;
-}
-
-.card-image {
-    float: left;
-    margin-right: 8px;
 }
 
 .navbar-brand {
