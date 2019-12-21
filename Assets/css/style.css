@@ -52,6 +52,7 @@ body {
     object-fit: cover;
     width: 100%;
     flex-shrink: 0;
+    color: white;
 }
 .fs-img {
     width: 100%;
