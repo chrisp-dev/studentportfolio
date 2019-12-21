@@ -2,49 +2,37 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
+    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <link rel="shortcut icon" href="Assets/Images/plant.png" type="image/x-icon">
     <title>c.paradeise</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
     <link rel="stylesheet" href="Assets/css/style.css">
 </head>
 
 <body>
-    <div class="container-fluid text-center bg-dark">
-        <div class="row">
-            <div class="navbar-brand flex justify-center p-2">Chris Paradeise</div>
-            <ul
-                class="list-group list-group-horizontal list-unstyled bg-light col-12 col-lg-3 d-flex flex-row justify-content-center justify-lg-content-end">
-                <li class="p-2 hover:bg-gray-500">
-                    <a class="" href="index.html">About</a>
-                </li>
-                <li class="p-2 hover:bg-gray-500">
-                    <a class="" href="portfolio.html">Portfolio</a>
-                </li>
-                <li class="p-2 hover:bg-gray-500">
-                    <a class="" href="contact.html">Contact</a>
-                </li>
-            </ul>
-        </div>
+    <div class="container flex justify-between mx-auto text-white">
+        <div class="navbar-brand flex justify-center p-2">Chris Paradeise</div>
+        <ul class="flex justify-center leading-normal">
+            <a class="p-2 hover:bg-gray-500 border-r-2" href="index.html">About</a>
+            <a class="p-2 hover:bg-gray-500 border-r-2" href="portfolio.html">Portfolio</a>
+            <a class="p-2 hover:bg-gray-500" href="contact.html">Contact</a>
+        </ul>
     </div>
-    <div class="container-fluid page-content">
-        <div class="row py-4 justify-content-around">
-            <div class="col-12 col-lg-9">
-                <div class="card">
-                    <div class="card-body">
-                        <h2 class="card-title">CAT Auction Services Leaderboard display</h2>
-                        <img src="Assets/Images/CATLeaderboard.png" alt="Caterpillar Auction Services"
-                            class="card-image img-fluid">
-
-                    </div>
+    <div class="container flex justify-center mx-auto flex-grow">
+        <div class="w-full flex-row py-4">
+            <h2 class="text-white text-2xl">Examples of my work</h2>
+            <hr>
+            <div class="w-full flex flex-wrap">
+                <div class="fs-body">
+                    <div class="text-xl text-white">CatAuction Services</div>
+                    <img class="fs-img" src="Assets/Images/CATLeaderboard.png" alt="cat1">
                 </div>
             </div>
         </div>
     </div>
-    <footer id="sticky-footer" class="py-4 bg-dark text-white-50">
-        <div class="container text-center">
+    <footer class="self-end footer text-center py-4 text-white">
+        <div class="container mx-auto text-sm">
             C.Paradeise Web Development &copy;2019
         </div>
         <div class="text-xs">Icons made by <a href="https://www.flaticon.com/authors/smashicons"
@@ -54,12 +42,6 @@
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
 </body>
 
