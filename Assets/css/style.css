@@ -106,3 +106,20 @@ a.active {
 .bg-c-thru {
     background-color: #2e334286;
 }
+
+.icon {
+    display: inline-block;
+    width: 70px;
+    height: 70px;
+    background-size: cover;
+}
+.smash-bacon {
+    background-image: url(../Images/bacon.svg);
+}
+.smash-waffle {
+    background-image: url(../Images/waffle.svg);
+}
+
+.filter-blue {
+    filter: brightness(0.5) sepia(1) hue-rotate(140deg) saturate(6);
+}
