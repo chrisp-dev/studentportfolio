@@ -1,0 +1,30 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "Chris Paradeise Web Dev Portfolio",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chrisp-dev/studentportfolio.git"
+  },
+  "keywords": [
+    "NodeJS",
+    "Express",
+    "JavaScript"
+  ],
+  "author": "Chris Paradeise",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chrisp-dev/studentportfolio/issues"
+  },
+  "homepage": "https://github.com/chrisp-dev/studentportfolio#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-handlebars": "^3.1.0",
+    "nodemailer": "^6.4.2"
+  }
+}
