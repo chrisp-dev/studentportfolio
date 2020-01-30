@@ -42,7 +42,7 @@ app.get('/contact', (req, res) => {
 });
 app.post('/api/contact', ({ body }, res) => {
     mail(body).then(response => {
-        res.status(200).json("Thanks!");
+        res.status(200).end();
     }).catch(err => {
         console.log(err);
         res.status(500).json(err.message);
