@@ -7,7 +7,7 @@ body {
     /* background-color: rgba(24, 247, 255, 0.4); */
     /* background-blend-mode: lighten; */
     background: transparent;
-    font-family: 'Fira Code', sans-serif;
+    font-family: 'Montserrat', 'Garamond', 'sans-serif';
     font-size: 1rem;
     display: flex;
     flex-flow: column;
@@ -78,7 +78,7 @@ body {
 }
 
 .navbar-brand {
-    background: #a0aec0;
+    background: #a0aec091;
     background-blend-mode: lighten;
 }
 
@@ -103,7 +103,7 @@ body {
 }
 
 a.active {
-    background-color: #a0aec0;
+    background-color: #a0aec091;
 }
 
 .bg-c-thru {
